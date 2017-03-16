@@ -1,6 +1,6 @@
 /* small-size */
 @media (min-width: 576px){
-	
+
 }
 
 .example > div {
@@ -9,3 +9,14 @@
   border: 1px solid black;
 }
 
+#message {
+  position: fixed;
+  top: 10px;
+  width: auto;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 1060;
+  -webkit-border-radius: 15px;
+     -moz-border-radius: 15px;
+          border-radius: 15px;
+}
